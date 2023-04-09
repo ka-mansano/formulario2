@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Indique seus preferidos!</title>
+        <link href="pag04.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <form>
+            <div class="nome">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" required>
+            </div>
+            <br/>
+            
+            <div class="email">
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" required>
+            </div>
+            <br/>
+            
+            <div>
+            <legend>Selecione o tipo:</legend>
+                <p><input type="checkbox" id="scales" name="scales">
+                <label for="scales">Filme</label>
+                <input type="checkbox" id="horns" name="horns">
+                <label for="horns">Série</label></p>
+                <p><input type="checkbox" id="scales" name="scales">
+                <label for="scales">Documentário</label>
+                <input type="checkbox" id="horns" name="horns">
+                <label for="horns">Mini série</label></p>
+            </div>
+            <br/>
+
+            <div class="nomeindic">
+                <label for="indic">Nome do filme/série:</label>
+                <input type="text" id="nomeindic" required>
+            </div>
+            <br/>
+
+            <div class="trailler">
+                <label for="trailler">Link do trailler:</label>
+                <input type="text" id="trailler">
+            </div>
+            <br/>
+
+            <div class="button">
+                <button type="submit">Enviar sua sugestão!</button>
+            </div> 
+
+        </form>
+    </body>
+</html>
