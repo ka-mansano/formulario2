@@ -1,0 +1,40 @@
+html {
+    font-family:'Courier New', Courier, monospace;
+    background-image: url(https://4.bp.blogspot.com/-vGxtnYgkHZI/VyjalnkgH3I/AAAAAAAAUmc/hKENxUrnS60ZcLkhVdSY9i-uzLyxQmKDgCLcB/s280/Teletubbies%2BJoy%2BDivision%2BParodia%2BPreto%2Be%2BBranco%2BMedo.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    text-align: center;
+}
+  
+form {
+    width:750px;
+    height:750px;
+    position:absolute;
+    display:block;
+}
+  
+legend {
+    background-color:#cfd0d1;
+    preenchimento: 10px;
+    fundo: azul;
+    cor: ciano;
+  }
+
+label{
+    background-color:#cfd0d1;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+button{
+    background-color:#cfd0d1;
+    font-size: large;
+    border-color: #cfd0d1;
+}
+
+fieldset{
+    text-align: center;
+}
