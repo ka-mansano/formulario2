@@ -5,19 +5,19 @@
     </head>
     <body>
         <form>
-            <div class="nome">
+            <div>
                 <label for="name">Nome:</label>
                 <input type="text" id="name" required>
             </div>
             <br/>
             
-            <div class="email">
+            <div>
                 <label for="mail">E-mail:</label>
                 <input type="email" id="mail" required>
             </div>
             <br/>
             
-            <div>
+            <div><fieldset>
             <legend>Selecione o tipo:</legend>
                 <p><input type="checkbox" id="scales" name="scales">
                 <label for="scales">Filme</label>
@@ -27,16 +27,16 @@
                 <label for="scales">Documentário</label>
                 <input type="checkbox" id="horns" name="horns">
                 <label for="horns">Minissérie</label></p>
-            </div>
+            </fieldset></div>
             <br/>
 
-            <div class="nomeindic">
+            <div>
                 <label for="indic">Nome do filme/série:</label>
                 <input type="text" id="nomeindic" required>
             </div>
             <br/>
 
-            <div class="trailler">
+            <div>
                 <label for="trailler">Link do trailler:</label>
                 <input type="text" id="trailler">
             </div>
