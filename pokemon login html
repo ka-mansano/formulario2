@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <title>Entre, mestre</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+      <div class="conteudo">
+        <div class="login">
+            <h2 class="title">Bem vindo novamente.</h2><br/>
+            <p class="descricao">Para fazer login, preencha as informações abaixo:</p>
+            <form class="log">
+              <label>E-mail:</label>
+              <input type="email" placeholder="Email"><br/>
+              <label>Senha:</label>
+              <input type="password" placeholder="Senha"><br/>
+              <button class="botao">Entrar</button><br/>
+              <a href="#">Esqueceu a senha?</a>
+            </form>
+        </div>
+        <div class="cadastro"> 
+            <h2 class="title">Crie sua conta.</h2>
+            <p class="descricao">Para realizar seu cadastro, preencha os dados abaixo:</p>
+            <form class="cad">
+              <label>Nome:</label>
+              <input type="text" placeholder="Nome"><br/>
+              <label>E-mail:</label>
+              <input type="email" placeholder="Email"><br/>
+              <label>Senha:</label>
+              <input type="password" placeholder="Senha"><br/>
+              <button class="botao">Cadastre-se.</button><br/>
+            </form>
+        </div>
+      </div>
+    </body>
+</html>
