@@ -18,7 +18,21 @@
         <p class="i">Questão 2.3</p>
         <p class="j">Questão 2.4</p>
 
-
-
+        <div class="bolo">
+            <h1>Questão 3:</h1>
+            <h1><p style = "font-family:courier,arial,helvetica;">
+                Bolo de chocolate
+                </p></h1>
+                <p class="ing">Ingredientes:</p>
+                <p class="aa">- 2 ovos</p>
+                <p class="bb">- 2 xícaras de açúcar</p>
+                <p class="cc">- 1 xícara de margarina</p>
+                <p class="dd">- 250 ml de água</p>
+                <p class="ee">- 2 xícaras de farinha de trigo</p>
+                <p class="ff">- 1 xícara de achocolatado em pó</p>
+                <p class="gg">- 1 colher de sopa de fermento em pó</p>
+                <p class="modo">Modo de preparo:</p>
+                <p class="prep">Em um liquidificador, coloque os ovos, a margarina e o açúcar. Bata acrescentando a água quente até virar um creme.<br/>Em outro recipiente, misture a farinha, o achocolatado em pó e o fermento.<br/> Em seguida, aos poucos, adicione o creme e continue mexendo lentamente até virar uma massa homogênea.<br/>Coloque a massa em uma forma untada com manteiga e polvilhada com farinha.<br/> Leve ao forno pré-aquecido e <i>deixe assar por cerca de 50 minutos.</i></p>
+        </div>
     </body>
 </html>
