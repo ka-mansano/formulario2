@@ -1,0 +1,39 @@
+.a{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;}
+.b{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: large;}
+.c{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: medium;}
+.d{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: small;}
+.e{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-small;}
+.f{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-small;}
+
+.g{
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    font-style: normal;
+    font-weight: 800;}
+.h{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    font-style: italic;
+    font-weight: 200;}
+.i{
+    font-family: monospace;
+    font-size: normal;
+    font-style: oblique;
+    font-weight: 500;}
+.j{
+    font-family: fantasy;
+    font-size: x-small;
+    font-style: normal;
+    font-weight: 400;}
