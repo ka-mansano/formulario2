@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex02.css">
+    <title>Oportunidade - SalesForce</title>
+</head>
+<body>
+    <h1><br/>Formulário de nova oportunidade</h1>
+    <div class="oport">
+        <form>
+            <label for="nome">Nome Completo:</label> <br/>
+            <input type="text" id="nome" name="nome" placeholder="Nome completo" required><br/>
+            
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" name="valor" step="0.01" placeholder="R$" required><br/>
+            
+            <label for="fase">Fase:</label>
+            <select id="fase" name="fase" required>
+                <option value="" selected disabled>Selecione a Fase</option>
+                <option value="Prospect">Prospect</option>
+                <option value="Qualify">Qualify</option>
+                <option value="Needs Analysis">Needs Analysis</option>
+                <option value="Value Proposition">Value Proposition</option>
+                <option value="Id. Decision Makers">Id. Decision Makers</option>
+                <option value="Perception Analysis">Perception Analysis</option>
+                <option value="Proposal/Price Quote">Proposal/Price Quote</option>
+                <option value="Negotiation/Review">Negotiation/Review</option>
+                <option value="Closed Won">Closed Won</option>
+                <option value="Closed Lost">Closed Lost</option>
+            </select><br/>
+            
+            <label for="tipo">Tipo:</label>
+            <select id="tipo" name="tipo" required>
+                <option value="" selected disabled>Selecione o Tipo de cliente</option>
+                <option value="New Customer">New Customer</option>
+                <option value="Existing Customer - Upgrade">Existing Customer - Upgrade</option>
+                <option value="Existing Customer - Replacement">Existing Customer - Replacement</option>
+                <option value="Existing Customer - Downgrade">Existing Customer - Downgrade</option>
+            </select><br/>
+
+            <input type="checkbox" id="part" name="part" required>
+            <label for="part">Particular.</label><br/>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    align-items: center;
+    background-color: #c3d9f1;
+}
+
+.oport {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: rgb(75, 134, 173);
+    border-radius: 30px;
+    grid-template-columns: 150px 1fr;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+label,
+input,
+select {
+    display: block;
+    margin-bottom: 10px;
+    grid-template-columns: auto 1fr;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: #f0f0f0;
+}
